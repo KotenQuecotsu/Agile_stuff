@@ -1,0 +1,148 @@
+body{
+    background-color: #0d0618;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.block{
+    background-color: rgb(35, 24, 52);
+    height: 682px;
+    margin-top: 356px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.excel{
+    
+    width: 589px;
+    height:260px;
+    margin-left: 143px;
+    
+}
+
+.line-container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.line{
+    height: 20px;
+    margin-bottom: 20px;
+    width: 133px;
+    border-width: 0px 0px 5px 0px;
+    border-bottom-right-radius: 0%;
+    position: relative;
+    
+    border-style: dashed;
+    border-color: green;
+    
+}
+
+.image-container{
+    opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transform: rotate(90);
+}
+
+.graph-image{
+    width: 127px;
+    height: 100px;
+}
+
+
+
+.arrow__body::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: 0;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: green transparent transparent;
+    
+  }
+
+.text-container{
+    position: relative;
+    z-index: 1;
+    font-family: "Roboto";
+    color: white;
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text{
+    margin-top: 46px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 809px;
+}
+
+.description-text{
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+}
+span{
+    color: green;
+    font-family: "Roboto";
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 473px;
+    height: 140px;
+    background-color: #574273;
+    font-size: 36px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (min-width:1240px) and (max-width:1601px) {
+    .excel
+    {
+        width: 491px;
+        height:217px;
+        margin-left: 119px;
+    }
+    .line{
+        width: 119px;
+    }
+    .line-container{
+        gap: 40px;
+    }
+    .graph-image{
+        width: 105px;
+        height: 83px;
+    }
+    h1{
+        font-size: 53px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .text{
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
